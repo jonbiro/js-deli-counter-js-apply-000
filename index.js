@@ -1,7 +1,7 @@
+var counter = 1
 
 function takeANumber(currentLine) {
-  var counter = 0
-  currentLine.push(counter);
+  currentLine.push(counter++);
   return 'You\'ve been added to the line'
 }
 
