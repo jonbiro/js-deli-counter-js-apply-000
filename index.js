@@ -2,7 +2,7 @@
 function takeANumber(currentLine) {
   var counter = 0
   currentLine.push(counter);
-  return 
+  return 'You\'ve been added to the line'
 }
 
 var line = []
