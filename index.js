@@ -1,13 +1,7 @@
 var counter = 1
 
 function takeANumber(currentLine) {
-  //currentLine.push(counter++);
-  
-  if(currentLine.length === 0){
-    currentline = [1]
-  } else {
-    currentline << currentline.last + 1
-  }
+  currentLine.push(counter++);
   return 'You\'ve been added to the line'
 }
 
@@ -15,7 +9,6 @@ var line = []
 
 takeANumber(line) // line is [1]
 takeANumber(line) // line is [1, 2]
-takeANumber(line)
 
 nowServing() // line is [2]
 nowServing() // line is []
