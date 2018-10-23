@@ -15,6 +15,7 @@ var line = []
 
 takeANumber(line) // line is [1]
 takeANumber(line) // line is [1, 2]
+takeANumber(line)
 
 nowServing() // line is [2]
 nowServing() // line is []
