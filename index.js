@@ -1,7 +1,8 @@
 
-function takeANumber(line) {
-  currentLine.push(name);
-  return `Welcome, ${name}. You are number ${currentLine.length} in line.`;
+function takeANumber(currentLine) {
+  var counter = 0
+  currentLine.push(counter);
+  return 
 }
 
 var line = []
