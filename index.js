@@ -4,6 +4,18 @@ function takeANumber(currentLine, name) {
   return `Welcome, ${name}. You are number ${currentLine.length} in line.`;
 }
 
+var line = []
+
+takeANumber(line) // line is [1]
+takeANumber(line) // line is [1, 2]
+
+nowServing() // line is [2]
+nowServing() // line is []
+
+takeANumber(line) // line is [3]
+
+
+
 /*
 function takeANumber(currentLine, name) {
   currentLine.push(name);
