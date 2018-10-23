@@ -1,5 +1,5 @@
 
-function takeANumber(currentLine, name) {
+function takeANumber(line) {
   currentLine.push(name);
   return `Welcome, ${name}. You are number ${currentLine.length} in line.`;
 }
@@ -15,31 +15,6 @@ nowServing() // line is []
 takeANumber(line) // line is [3]
 
 
-
-/*
-function takeANumber(currentLine, name) {
-  currentLine.push(name);
-  // one way is to do:
-  //  let position = currentLine.indexOf(name) + 1;
-  let position = currentLine.length;
-  return `Welcome, ${name}. You are number ${position} in line.`;
-}
-*/
-
-//OR
-
-/*
-function nowServing(currentLine){
-  if (currentLine === false){
-    return "There is nobody waiting to be served!";
-  } else {
-    return `Currently serving ${currentLine.shift()}.`;
-  }
-}
-
-*/
-
-// or
 
 function nowServing(currentLine){
   if (currentLine.length === 0){
