@@ -6,7 +6,7 @@ function takeANumber(currentLine) {
   if(currentLine.length === 0){
     currentline = [1]
   } else {
-    currentline.push(currentline[currentline.length -1])
+    currentline.push(currentline[currentline.length -1] + 1)
   }
   return 'You\'ve been added to the line'
 }
